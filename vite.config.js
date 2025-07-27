@@ -4,7 +4,4 @@ import react from '@vitejs/plugin-react-swc';
 export default defineConfig({
   plugins: [react()],
   base: '/pinterest/',
-  build: {
-    outDir: 'docs', 
-  },
-});s
+});
