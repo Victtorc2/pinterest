@@ -1,0 +1,15 @@
+.buscador-navbar .form-control {
+  border-radius: 50px;
+  padding-left: 0.75rem;
+  background-color: #f1f1f1;
+  border: none;
+}
+
+.buscador-navbar .form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 132, 255, 0.25);
+}
+
+.input-group-text {
+  background-color: transparent;
+  border: none;
+}

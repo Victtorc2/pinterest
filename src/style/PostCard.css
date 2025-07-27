@@ -1,0 +1,47 @@
+.post-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  transition: transform 0.3s;
+}
+
+.post-image {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+}
+
+.post-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: start;
+  padding: 10px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.post-card:hover .post-overlay {
+  opacity: 1;
+}
+
+.save-button {
+  background-color: #e60023;    
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.save-button:hover {
+  background-color: #ad081b;
+}

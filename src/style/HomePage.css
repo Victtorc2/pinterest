@@ -1,0 +1,30 @@
+.my-masonry-grid {
+  display: flex;
+  margin-left: -16px; 
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 16px; 
+  background-clip: padding-box;
+}
+
+.my-masonry-grid_column > div {
+  margin-bottom: 16px;
+}
+
+.search-bar-home .form-control {
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 50px;
+  padding-left: 0.75rem;
+}
+
+.search-bar-home .form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 102, 0.2);
+}
+
+.search-bar-home .input-group-text {
+  background-color: transparent;
+  border: none;
+}
+
